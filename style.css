@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-
+  
   --background-default: #F5F4F0;
   --border: #D9D9D9;
 
@@ -11,7 +11,7 @@
 
   --accent-blue: #0C51A7;
   --accent-orange: #E95E10;
-  --accent-pink: #E5245E
+  --accent-pink: #E5245E;
   --accent-purple: #591B98;
 }
 
@@ -27,15 +27,13 @@ body {
   background-color: var(--background-default);
 }
 
-h1, h2, h3 {
+h1, h2, h3, li {
   font-weight: bold;
 
   color: var(--text-primary);
 }
 
 p {
-  font-size: 1rem;
-
   color: var(--text-secondary);
 }
 
@@ -47,7 +45,6 @@ span {
 }
 
 img {
-  max-width: 100%;
   border-radius: 28px;
 }
 
@@ -71,7 +68,7 @@ img {
 
 .page main {
   padding-block: 4rem 2.5rem;
-  border-block: 1px solid var(--border);
+  border-top: 1px solid var(--border);
 }
 
 main .destinations {
@@ -82,6 +79,11 @@ main .destinations h2 {
   margin-block: 4px 8px;
 
   font-size: 2rem;
+}
+
+main ol {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
 }
 
 main ol article img {
@@ -105,10 +107,9 @@ main ol article > li {
   margin-left: 2.25rem;
   
   font-size: 1.75rem;
-  font-weight: bold;
 }
 
-main ol article h3 {
+main ol article li h3 {
   font-size: 1.75rem;
 }
 
@@ -129,7 +130,29 @@ main ol article ul li::marker {
 }
 
 main ol article ul li:nth-child(1) {
-  font-weight: bold;
-
   color: var(--accent-blue);
+}
+
+main ol article:last-child ul li:nth-child(1) {
+  color: var(--accent-purple);
+}
+
+main ol article:last-child ul li:nth-child(2) {
+  color: var(--accent-pink);
+}
+
+main ol article:last-child ul li:nth-child(3) {
+  color: var(--accent-orange);
+}
+
+main > p {
+  text-align: center;
+
+  margin-top: 2.5rem;
+}
+
+footer {
+  text-align: center;
+
+  margin-bottom: 3rem;
 }
