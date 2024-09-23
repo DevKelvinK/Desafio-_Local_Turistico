@@ -18,5 +18,7 @@ Projeto feito em HTML e CSS, para testar os ensinamentos básicos ensinados no i
 
 <strong>Conclusão:</strong>
 ```
-Quando comecei fazer o curso full stack, eu já tinha conhecimentos avançados em HTML e CSS, portanto, foi de certa forma tranquilo concluir esse desafio, tentei ao máximo utilizar apenas o que foi ensinado no curso até o momento, mas também colocando algumas outras coisas que já tinha conhecimento. 
+Quando comecei fazer o curso full stack, eu já tinha conhecimentos avançados em HTML e CSS,
+portanto, foi de certa forma tranquilo concluir esse desafio, tentei ao máximo utilizar apenas o que
+foi ensinado no curso até o momento, mas também colocando algumas outras coisas que já tinha conhecimento. 
 ```
