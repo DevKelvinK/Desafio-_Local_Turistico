@@ -1,6 +1,6 @@
 # PROJETO LOCAL TURÍSTICO
 
-Projeto em HTML e CSS para testar conceitos básicos do curso full stack da rocketseat. O objetivo é criar uma página web sobre um local turístico, aplicando HTML semântico e estilos CSS. Este desafio reforça a estruturação de documentos HTML e a aplicação de CSS, preparando para projetos mais avançados.
+Projeto em HTML e CSS para testar conceitos básicos do curso full stack da rocketseat. O objetivo foi criar uma página web sobre alguns locais turísticos, aplicando HTML semântico e estilos CSS. Este desafio reforça a estruturação de documentos HTML e a aplicação de CSS, preparando para projetos mais avançados.
 
 <strong>No projeto foi utilizado:</strong>
 
